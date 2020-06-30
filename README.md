@@ -1,4 +1,4 @@
-# Classification and Segmentation of Covid-19 CT Scans**
+# Classification and Segmentation of Covid-19 CT Scans
 This study was concerned with the challenge of coronavirus disease (COVID-19) detection in chest X-ray and Computed Tomography (CT) scans, and the classification and segmentation of related infection manifestations. In the first stage, Inception-v3 deep model was fine-tuned for COVID-19 recognition using multi-modal learning, i.e., using X-ray and CT scans attained accuracy of 99.4%. The second stage of the proposed pipeline dealing with different types of infection manifestations.
 The former features a convolutional neural network architecture for recognizing three types of manifestations,(i.e., ground glass opacity, Consolidation and Pleural effusion) while the latter transfers learning from another knowledge domain, namely, pulmonary nodule segmentation in CT scans, to produce binary masks for segmenting the regions corresponding to these manifestations. The proposed pipeline also features specialized streams in which multiple deep models are trained separately to segment specific types of infection manifestations. It achieved an increase of approximately 4% and 7% for dice coefficient and mean intersection-over-union (mIoU), respectively, while achieving 60% reduction in computational time, compared to the recent literature.
 
@@ -32,9 +32,9 @@ This project uses the TFRecord format to consume data in the training and evalua
 In order to generate training labels for the dataset, we used COVID-19 CT segmentation dataset
 [http://medicalsegmentation.com/covid19/](http://medicalsegmentation.com/covid19/)
 
-![Deeplab Architecture](Architecture.png)
-![Deeplab Visualization](visualization.png)
-![inception-v3 result](result.png)
+![Deeplab Architecture](Deeplab Architecture.png)
+![Deeplab Visualization](deeplab visualization.png)
+![inception-v3 result](inception-v3 result.png)
 ## References
 1. EL-Bana, S.; Al-Kabbany, A.; Sharkas, M. [A Two-Stage Framework for utomated Malignant Pulmonary Nodule Detection in CT Scans.](https://www.mdpi.com/2075-4418/10/3/131) _Diagnostics_  **2020**, _10_, 131.
 2. El-bana, Shimaa, Ahmad Al-Kabbany, and Maha Sharkas. ["A Multi-Task Pipeline with Specialized Streams for Classification and Segmentation of Infection Manifestations in COVID-19 Scans."](https://www.medrxiv.org/content/10.1101/2020.06.24.20139238v1) _medRxiv_ (2020).
