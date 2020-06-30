@@ -1,0 +1,5 @@
+cd..
+
+CURRENT_DIR=$(pwd)
+work_DIR="${CURRENT_DIR}/deeplab"
+
