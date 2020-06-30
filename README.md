@@ -32,9 +32,9 @@ This project uses the TFRecord format to consume data in the training and evalua
 In order to generate training labels for the dataset, we used COVID-19 CT segmentation dataset
 [http://medicalsegmentation.com/covid19/](http://medicalsegmentation.com/covid19/)
 
-![Deeplab Architecture](Deeplab Architecture.png)
-![Deeplab Visualization](deeplab visualization.png)
-![inception-v3 result](inception-v3 result.png)
+![](Deeplab%20Architecture.png)
+![](deeplab%20visualization.png)
+![](inception-v3%20result.png)
 ## References
 1. EL-Bana, S.; Al-Kabbany, A.; Sharkas, M. [A Two-Stage Framework for utomated Malignant Pulmonary Nodule Detection in CT Scans.](https://www.mdpi.com/2075-4418/10/3/131) _Diagnostics_  **2020**, _10_, 131.
 2. El-bana, Shimaa, Ahmad Al-Kabbany, and Maha Sharkas. ["A Multi-Task Pipeline with Specialized Streams for Classification and Segmentation of Infection Manifestations in COVID-19 Scans."](https://www.medrxiv.org/content/10.1101/2020.06.24.20139238v1) _medRxiv_ (2020).
